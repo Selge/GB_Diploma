@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bärendreck</title>
+    <link rel="shortcut icon" href="../static/bilder/Lederhosen.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {background-color:#191919;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
+    h1{text-align:center;font-family: "Gothic Joker";color:#ffffff;background-color:#191919;font-size:90px;}
+    p {text-align:center;font-family:"Gothic Joker";font-size:45px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#191919;}
+    p.about {text-align:left;font-family:"Gothic Joker";font-size:18px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#191919; margin-left: 10%;}
+	.bottom {margin-top: 5%;}
+    .buch {text-align:center;font-family:"Gothic Joker";font-size:60px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#191919; margin: 1%;}
+    .dropdown {position: relative; display: inline-block; margin: 5%;}
+    .dropdown {position: relative; display: inline-block; margin: 1%;}
+    .dropbtn {padding: 16px 16px; background-color:#191919; font-size: 16px; border: none;}
+    .dropdown-content {display: none; position: absolute; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+    .dropdown-content a {color: black; padding: 16px 16px; text-decoration: none; display: block;}
+    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: #ddd;}
+    button {margin-top: 5%; padding-left: 5%; padding-right: 5%; padding-top: 1%; padding-bottom: 1%; border-color:#ffffff; border-width:3px; border-radius:10px; font-family:"Gothic Joker"; color:#ffffff; font-size: 60px; text-align: center; background-color: #191919;}
+    </style>
+</head>
+<body>
+<h1>Bärendreck</h1>
+<p>Deutsch-Deutsches Wörterbuch für Anfänger</p>
+<p>Bitte, wählen Sie eine Dialekte aus:</p>
+<div class="buch">
+    <div class="dropdown">
+        <button class="dropbtn">
+            <img src="/static/bilder/worterbuch.png" height="100">
+        </button>
+            <div class="dropdown-content">
+                <a href="#"><img src="/static/bilder/Österreich.png" height="100" lenght="200"></a>
+                <a href="#"><img src="/static/bilder/Flag_of_Volga_Germans.svg.png" height="100" lenght="200"></a>
+                <a href="#"><img src="/static/bilder/DDR.png" height="100" lenght="200"></a>
+            </div>
+    </div>
+</div>
+<div class="bottom">
+	<p class="about">Diese Website ist mit Python und Django erstellt</p>
+	<p class="about">&copy; 2023</p>
+</div>
+</body>
+</html>
