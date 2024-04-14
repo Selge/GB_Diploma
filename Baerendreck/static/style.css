@@ -12,8 +12,28 @@ h1 {
     background-color:#191919;
     font-size:90px;
 }
-p {text-align:center;font-family:"Gothic Joker";font-size:45px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#191919;}
-p.about {text-align:left;font-family:"Gothic Joker";font-size:18px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#191919; margin-left: 10%;}
+
+p {
+    text-align:center;
+    font-family:"Gothic Joker";
+    font-size:45px;
+    font-style:normal;
+    font-weight:normal;
+    color:#ffffff;
+    background-color:#191919;
+}
+
+p.about {
+    text-align:left;
+    font-family:"Gothic Joker";
+    font-size:18px;
+    font-style:normal;
+    font-weight:normal;
+    color:#ffffff;
+    background-color:#191919;
+    margin-left: 10%;
+}
+
 .bottom {margin-top: 5%;}
 .buch {text-align:center;font-family:"Gothic Joker";font-size:60px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#191919; margin: 1%;}
 .dropdown {position: relative; display: inline-block; margin: 5%;}
