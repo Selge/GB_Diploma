@@ -5,6 +5,7 @@ body {
     background-attachment:fixed;
 }
 
+/* noinspection CssNoGenericFontName */
 h1 {
     text-align:center;
     font-family: "Gothic Joker";
@@ -13,6 +14,7 @@ h1 {
     font-size:90px;
 }
 
+/* noinspection CssNoGenericFontName */
 p {
     text-align:center;
     font-family:"Gothic Joker";
@@ -23,6 +25,7 @@ p {
     background-color:#191919;
 }
 
+/* noinspection CssNoGenericFontName */
 p.about {
     text-align:left;
     font-family:"Gothic Joker";
@@ -34,14 +37,79 @@ p.about {
     margin-left: 10%;
 }
 
-.bottom {margin-top: 5%;}
-.buch {text-align:center;font-family:"Gothic Joker";font-size:60px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#191919; margin: 1%;}
-.dropdown {position: relative; display: inline-block; margin: 5%;}
-.dropdown {position: relative; display: inline-block; margin: 1%;}
-.dropbtn {padding: 16px 16px; background-color:#191919; font-size: 16px; border: none;}
-.dropdown-content {display: none; position: absolute; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
-.dropdown-content a {color: black; padding: 16px 16px; text-decoration: none; display: block;}
-.dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #ddd;}
-button {margin-top: 5%; padding-left: 5%; padding-right: 5%; padding-top: 1%; padding-bottom: 1%; border-color:#ffffff; border-width:3px; border-radius:10px; font-family:"Gothic Joker"; color:#ffffff; font-size: 60px; text-align: center; background-color: #191919;}
+.bottom {
+    margin-top: 5%;
+}
+
+/* noinspection CssNoGenericFontName */
+.buch {
+    text-align:center;
+    font-family:"Gothic Joker";
+    font-size:60px;
+    font-style:normal;
+    font-weight:normal;
+    color:#ffffff;
+    background-color:#191919;
+    margin: 1%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 5%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 1%;
+}
+
+.dropbtn {
+    padding: 16px 16px;
+    background-color:#191919;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ddd;
+}
+
+
+/* noinspection CssNoGenericFontName */
+button {
+    margin-top: 5%;
+    padding: 5% 5% 1% 1%;
+    border-color:#ffffff;
+    border-width:3px;
+    border-radius:10px;
+    font-family:"Gothic Joker";
+    color:#ffffff;
+    font-size: 60px;
+    text-align: center;
+    background-color: #191919;
+}
