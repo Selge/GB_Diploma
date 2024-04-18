@@ -11,14 +11,14 @@ h1 {
     font-family: "Gothic Joker";
     color:#ffffff;
     background-color:#191919;
-    font-size:90px;
+    font-size:70px;
 }
 
 /* noinspection CssNoGenericFontName */
 p {
     text-align:center;
     font-family:"Gothic Joker";
-    font-size:45px;
+    font-size:35px;
     font-style:normal;
     font-weight:normal;
     color:#ffffff;
@@ -116,7 +116,7 @@ button {
 
 /* noinspection CssNoGenericFontName */
 .alphabet {
-    margin: 50px;
+    margin: 5px;
     text-align:center;
     font-family:"Gothic Joker";
     font-size:45px;

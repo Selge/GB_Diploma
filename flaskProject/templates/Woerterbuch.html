@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Bärendreck</title>
+    <link rel="shortcut icon" href="/static/bilder/Lederhosen.png">
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<h1>Bärendreck</h1>
+<p>Deutsch-Deutsches Wörterbuch für Anfänger</p>
+<div class="alphabet">
+        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü ß
+ </div>
+<div class="alphabet">
+    <table>
+            <tr>
+                <th>im Dialekt</th>
+                <th>im Hochdeutsch</th>
+            </tr>
+            {% for item in items %}
+            <tr>
+                <td>{{ item.das_wort_dial }}</td>
+                <td>{{ item.hochdeutsch_wort }}</td>
+            </tr>
+            {% endfor %}
+    </table>
+</div>
+<div class="bottom">
+	<p class="about">github.com/Selge</p>
+	<p class="about">&copy; 2024</p>
+</div>
+</body>
+</html>
