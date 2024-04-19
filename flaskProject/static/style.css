@@ -138,3 +138,15 @@ button {
     color:#ffffff;
     background-color:#191919;
 }
+
+/* noinspection CssNoGenericFontName */
+p.title {
+    text-align:left;
+    font-family:"Gothic Joker";
+    font-size:18px;
+    font-style:normal;
+    font-weight:normal;
+    color:#ffffff;
+    background-color:#191919;
+    margin-left: 10%;
+}

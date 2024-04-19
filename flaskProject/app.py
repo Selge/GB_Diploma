@@ -63,12 +63,12 @@ def woerterbuch():
 
 @app.route('/DDR', methods=['GET', 'POST'])
 def ddr():
-    return render_template("Woerterbuch.html", items=DDR.query.all())
+    return render_template("Woerterbuch.html", items=DDR.query.all(), Mundart='DDR')
 
 
 @app.route('/OE', methods=['GET', 'POST'])
 def oe():
-    return render_template("Woerterbuch.html", items=Osterreichisch.query.all())
+    return render_template("Woerterbuch.html", items=Osterreichisch.query.all(), Mundart='Österreich')
 
 
 if __name__ == '__main__':
