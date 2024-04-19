@@ -125,3 +125,16 @@ button {
     color:#ffffff;
     background-color:#191919;
 }
+
+/* noinspection CssNoGenericFontName */
+.woerterbuch {
+    position: center;
+    margin: auto;
+    text-align:center;
+    font-family:"Gothic Joker";
+    font-size:45px;
+    font-style:normal;
+    font-weight:normal;
+    color:#ffffff;
+    background-color:#191919;
+}
